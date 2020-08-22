@@ -1,0 +1,36 @@
+body{
+  background:black;
+}
+.resizable{
+width:100px;
+height:100px;
+background:white;
+position:absolute;
+top:100px;
+left:100px; 
+}
+.corner{
+  width:10px;
+  height:10px;
+  background:blue;
+  border-radius:50%;
+  position:absolute; 
+}
+.resizer-top-left{
+left:-1px;
+top:-1px;
+}
+.resizer-top-right{
+right:-1px;
+top:-1px;
+}
+.resizer-bottom-left{
+  bottom:-1px;
+  left:-1px;
+}
+.resizer-bottom-right{
+  bottom:-1px;
+  right:-1px;
+}
+
+
